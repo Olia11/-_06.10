@@ -59,19 +59,13 @@ class Worker1
 //Создайте 2 объекта этого класса: 'Иван', возраст 25, зарплата 1000 и 'Вася', возраст 26, зарплата 2000.
 $worker1 = new Worker1();
 $worker1->setName("Ivan");
-$worker1->getName();
 $worker1->setAge("25");
-$worker1->getAge();
 $worker1->setSalary("1000");
-$worker1->getSalary();
 
 $worker2 = new Worker1();
 $worker2->setName("Vasya");
-$worker2->getName();
 $worker2->setAge("26");
-$worker2->getAge();
 $worker2->setSalary("2000");
-$worker2->getSalary();
 //Выведите на экран сумму зарплат Ивана и Васи.
 echo $worker1->getSalary()+$worker2->getSalary().PHP_EOL;
 //Выведите на экран сумму возрастов Ивана и Васи.
